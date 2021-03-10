@@ -117,7 +117,7 @@ set(V8_USE_CUSTOM_LIBCXX OFF)
 
 ## [Examples](Examples), [.clang-format](.clang-format), and [CMakeLists.txt](CMakeLists.txt)
 
-<img align="right" src="https://opensource.org/files/OSI_Approved_License.png">
+<img align="right" src="https://opensource.org/files/OSI_Approved_License.png" width="120">
 
 Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
@@ -132,7 +132,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OU
 
 ## V8
 
-<img align="right" src="https://opensource.org/files/OSI_Approved_License.png">
+<img align="right" src="https://opensource.org/files/OSI_Approved_License.png" width="120">
 
 Licensed under the [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause).
 
