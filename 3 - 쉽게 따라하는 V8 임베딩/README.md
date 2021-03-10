@@ -44,7 +44,7 @@ cd "CppKoreaSeminar8th/3 - 쉽게 따라하는 V8 임베딩"
 빌드 결과물을 저장할 디렉토리를 생성한 후, 빌드 시스템을 생성합니다. 빌드 시스템을 생성할 때 V8 빌드가 함께 이루어집니다. **이 과정은 컴퓨터에 따라 최대 몇 시간까지 걸릴 수 있습니다.** V8 빌드 중에는 빌드 시스템이 CPU를 모두 점유하기 때문에, 다른 작업에 지장을 줄 수 있습니다. 노트북이라면 충전기를 연결하여 절전모드를 해제한 상태에서 빌드해주세요. **V8 소스코드는 `~/v8` 에 다운로드 됩니다.**
 
 ```
-cmake -G "e.g. Visual Studio 16 2019" ..
+cmake -G "e.g. Visual Studio 16 2019" -DCMAKE_BUILD_TYPE=Debug ..
 ```
 
 위 과정이 모두 끝났다면, 콘솔에 다음과 같은 결과가 출력되어있어야 합니다. 이 과정에서 `v8_monolith`가 자동으로 빌드되며, 1400여개의 파일이 컴파일됩니다.
@@ -57,6 +57,18 @@ cmake -G "e.g. Visual Studio 16 2019" ..
 
 ```
 cmake --build .
+```
+
+릴리드 모드로 빌드하려면 다음과 같이 빌드 시스템을 생성합니다.
+
+```
+cmake -G "e.g. Visual Studio 16 2019" -DCMAKE_BUILD_TYPE=Release ..
+```
+
+윈도우에선 릴리즈 모드는 다음과 같이 빌드하여야 합니다.
+
+```
+cmake --build . --config Release
 ```
 
 위 과정은 Visual Studio 등 CMake 프로젝트를 지원하는 IDE를 사용하면 쉽게 진행할 수 있습니다.
