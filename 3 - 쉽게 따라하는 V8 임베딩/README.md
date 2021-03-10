@@ -4,17 +4,19 @@ V8은 구글이 Chromium을 개발하면서 함께 개발한 자바스크립트 
 Node.js 및 Deno와 같은 런타임을 개발하는데도 사용되었고, 크로스플렛폼을 지원합니다. 
 이 발표에선 V8을 다운받아 빌드한 후, C++ 프로그램에 임베딩하는 방법을 소개합니다. 
 
+## 목차
+
 * V8 소개
 * V8 소스코드 다운로드 및 빌드하는 법
 * V8 링크하기
 * 자바스크립트 소개
-* V8으로 자바스크립트 코드 실행하기
-* C++ 함수를 자바스크립트에 노출하기
-* ES6 모듈 코드 실행하기
-* C++ 함수로 이루어진 ES6 모듈 만들기
-* setTimeout 구현하기
-* 자바스크립트 Promise 활용하기
-* C++ 클래스를 자바스크립트에 노출하기
+* [V8으로 자바스크립트 코드 실행하기](Examples/1-run-javascript/Source/Main.cc)
+* [C++ 함수를 자바스크립트에 노출하기](Examples/2-expose-cpp-to-javascript/Source/Main.cc)
+* [ES6 모듈 코드 실행하기](Examples/3-use-es6-modules/Source/Main.cc)
+* [C++ 함수로 이루어진 ES6 모듈 만들기](Examples/4-es6-modules-with-cpp/Source/Main.cc)
+* [setTimeout 구현하기](Examples/5-impl-set-timeout/Source/Main.cc)
+* [자바스크립트 Promise 활용하기](Examples/6-promises/Source/Main.cc)
+* [C++ 클래스를 자바스크립트에 노출하기](Examples/7-use-cpp-classes-on-javascript/Source/Main.cc)
 
 ## 예제 코드 빌드하기
 
