@@ -115,7 +115,11 @@ set(V8_USE_CUSTOM_LIBCXX OFF)
 
 # License
 
-## [Examples](Examples), [.clang-format](.clang-format) and [CMakeLists.txt](CMakeLists.txt)
+## [Examples](Examples), [.clang-format](.clang-format), and [CMakeLists.txt](CMakeLists.txt)
+
+<img align="right" src="https://opensource.org/files/OSI_Approved_License.png">
+
+Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 Copyright (c) 2021 Chanjung Kim
 
@@ -127,6 +131,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## V8
+
+<img align="right" src="https://opensource.org/files/OSI_Approved_License.png">
+
+Licensed under the [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause).
 
 Copyright 2006-2011, the V8 project authors. All rights reserved.
 
